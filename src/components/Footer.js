@@ -1,12 +1,14 @@
-import React, { Component } from 'react';
+import React from 'react';
+import { Box, Link as A } from '@hackclub/design-system'
 import '../App.css';
 
-export default class Footer extends Component {
-  render() {
-    return (
-      <div className="footer">
-        <h1>Created by <a href="https://github.com/zanedb">@zanedb</a></h1>
-      </div>
-    )
-  }
-}
+const Footer = () => (
+  <Box p={3} align="center" fontSize={30} color="#FFFFFF" bg="#2a9134">
+    Created by {' '}
+    <A href="https://keybase.io/zanedb" underline>
+      @zanedb
+    </A>
+  </Box>
+)
+
+export default Footer
