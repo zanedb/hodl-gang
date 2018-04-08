@@ -4,6 +4,9 @@ import '../App.css'
 
 const Lyrics = () => (
   <Box p={3} align="center" color="white" bg="#2a9134">
+    <Text fontSize={6}>
+      Lyrics:
+    </Text>
     <Text ml={500} mr={500} mt={20} mb={20} fontSize={4}>
       {`
       [Intro]
