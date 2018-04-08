@@ -1,6 +1,5 @@
 import React from 'react'
 import { Box, Text } from '@hackclub/design-system'
-import '../App.css'
 
 const Lyrics = () => (
   <Box p={3} align="center" color="white" bg="#2a9134">

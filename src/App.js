@@ -1,6 +1,5 @@
 import React from 'react';
 import { ThemeProvider } from '@hackclub/design-system'
-import './App.css';
 
 import Title from './components/Title'
 import Embed from './components/Embed'

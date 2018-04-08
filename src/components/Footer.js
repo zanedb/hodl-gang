@@ -1,6 +1,5 @@
 import React from 'react'
 import { Box, Link as A } from '@hackclub/design-system'
-import '../App.css'
 
 const Footer = () => (
   <Box p={3} align="center" fontSize={4} color="white" bg="#dacc3e">

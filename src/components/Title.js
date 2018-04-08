@@ -1,6 +1,5 @@
 import React from 'react'
 import { Section, Heading, Text } from '@hackclub/design-system'
-import '../App.css'
 import data from './../data.json'
 
 const Title = () => (

@@ -1,6 +1,5 @@
 import React from 'react'
 import { Section } from '@hackclub/design-system'
-import '../App.css'
 
 const Embed = () => (
   <Section bg="#ff495c">
